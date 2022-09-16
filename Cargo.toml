@@ -1,0 +1,12 @@
+[package]
+name = "ublk-sys"
+version = "0.0.0"
+description = "libublksrv bindings"
+edition = "2021"
+repository = "https://github.com/germag/ublk-sys"
+keywords = ["ublk", "libublksrv"]
+license = "MIT"
+authors = ["German Maglione <gmaglione@redhat.com>"]
+
+[dependencies]
+libc = "0.2.132"
